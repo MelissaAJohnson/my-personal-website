@@ -1,0 +1,10 @@
+body {
+    background: lightgray;
+    font-family: 'Arial', 'san-serif';
+}
+
+.title {
+    font-family: 'Tangerine', 'serif';
+    font-size: 72px;
+    color: dimgray;
+}
