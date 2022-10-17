@@ -2,10 +2,49 @@ body {
     background: lightgray;
     font-family: 'Arial', 'san-serif';
     font-size: 12px;
+    width: 800px;
+    margin: auto;
+}
+
+.container-white {
+    background: white;
+    margin: 40px 0px 10px 0px;
+}
+
+.container-black {
+    background: black;
+    color:white;
+}
+
+#headline {
+    padding: 0px 20px 20px;
 }
 
 .title {
     font-family: 'Tangerine', 'serif';
-    font-size: 72px;
+    font-size: 82px;
     color: dimgray;
+}
+
+#sub-head {
+    font-size: 32px;
+    width:70%; 
+    vertical-align:middle
+}
+
+.content {
+    font-size: 18px;
+    padding: 20px;
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+    .content h1 {
+        font-size: 36px;
+        -webkit-text-stroke: 1px white;
+        -webkit-text-fill-color: black;
+    }
+  }
+
+a:visited {
+    color: white;
 }
