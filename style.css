@@ -34,17 +34,28 @@ body {
 
 .content {
     font-size: 18px;
+}
+
+.content table {
+    width: 100%;
+}
+
+.content td {
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.content p {
     padding: 20px;
 }
 
 @supports (-webkit-text-stroke: 1px white) {
     .content h1 {
+        cursor: pointer;
         font-size: 36px;
         -webkit-text-stroke: 1px white;
         -webkit-text-fill-color: black;
     }
   }
-
-a:visited {
-    color: white;
-}
